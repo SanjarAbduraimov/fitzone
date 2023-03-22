@@ -1,0 +1,41 @@
+[
+  {
+    "id": 1,
+    "name": "Product Name",
+    "rate": 5,
+    "price": 34.00,
+    "status": "instock",
+    "currency": "usd",
+    "discount": 10
+  },
+  {
+    "id": 2,
+    "name": "Product Name",
+    "rate": 1,
+    "price": 34.00,
+    "status": "free shipping",
+    "currency": "usd",
+    "discount": 10,
+    "img": "./img/products/img-2.png"
+  },
+  {
+    "id": 3,
+    "name": "Product Name",
+    "rate": 4,
+    "price": 34.00,
+    "status": "sold out",
+    "currency": "usd",
+    "discount": 10,
+    "img": "./img/products/img-1.png"
+  },
+  {
+    "id": 3,
+    "name": "Product Name",
+    "rate": 4,
+    "price": 34.00,
+    "status": "sold out",
+    "currency": "usd",
+    "discount": 10,
+    "img": "./img/products/img-1.png"
+  }
+]
