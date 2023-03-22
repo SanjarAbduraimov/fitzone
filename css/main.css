@@ -581,15 +581,8 @@ main .row {
 /* ================ FOOTER ================*/
 
 footer {
-  background: url(./) var(--lightGray);
+  background: url(../img/footer.png) no-repeat bottom center var(--lightGray);
 }
-
-footer .col:first-of-type {
-  flex: 2;
-  padding: 0 9rem 0 10.5rem;
-}
-
-footer form {}
 
 .footer__title {
   margin-bottom: 1.6rem;
@@ -632,6 +625,7 @@ footer .nav__link {
 }
 
 .footer__copyright {
+  flex: 1;
   margin-bottom: 2.4rem;
   font-family: var(--mainFontFamily);
   font-style: normal;
@@ -823,6 +817,16 @@ footer .nav__link {
     margin-bottom: 4.2rem;
     font-size: 2.8rem;
     line-height: 130%;
+  }
+
+  footer {
+    background-position: left center;
+    background-image: url(../img/footer-lg.svg);
+  }
+
+  footer .col:first-of-type {
+    flex: 2;
+    padding: 0 9rem 0 10.5rem;
   }
 }
 
